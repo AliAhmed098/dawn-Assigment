@@ -1,0 +1,515 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header ul li a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.heading {
+    text-align: center;
+    font-size: 100px;
+}
+
+.first {
+    text-align: center;
+}
+
+.center {
+    margin: 20px 1px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.center ul {
+    list-style: none;
+}
+
+.center ul li {
+    font-size: 11px;
+    display: inline-block;
+}
+
+
+.center ul li a {
+    text-decoration: none;
+    color: black;
+    /* margin-right: 6px;
+    margin-left: 6px; */
+    margin: 0px 6px;
+}
+
+.center ul li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+
+.search {
+    width: 100%;
+    border: 2px solid white;
+    font-size: 15px;
+    margin-left: 5px;
+
+}
+
+.search:hover {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+div.center i {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.title h3 {
+    text-align: center;
+    margin-top: 8px;
+    font-size: 40px;
+}
+
+.second {
+    margin-left: 130px;
+}
+
+div.icons i {
+    font-size: 30px;
+    margin: 0px 5px;
+}
+
+.icons {
+    margin-left: 1100px;
+    position: relative;
+    bottom: 15px;
+}
+
+img {
+    margin-left: 270px;
+}
+
+.third {
+    margin-left: 270px;
+}
+
+.four {
+    text-align: center;
+    margin: 1px 270px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.five {
+    text-align: center;
+    margin: 1px 270px;
+    font-size: 20px;
+}
+
+.six {
+    text-align: center;
+    margin: 1px 270px;
+    font-size: 20px;
+}
+
+.seven {
+    text-align: center;
+    margin: 1px 270px;
+    font-size: 20px;
+}
+
+.eigth {
+    text-align: center;
+    margin: 1px 270px;
+    font-size: 20px;
+}
+
+.nine {
+    text-align: center;
+    margin: 1px 270px;
+    font-size: 20px;
+}
+
+.ten {
+    margin: 1px 270px;
+    font-size: 20px;
+}
+
+.name {
+    margin-left: 270px;
+    height: 40px;
+    width: 13%;
+    text-align: center;
+    font-size: 15px;
+    background-color: aquamarine;
+    border: 4px solid burlywood;
+    border-radius: 7px;
+
+}
+
+.email {
+    height: 40px;
+    width: 13%;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 100px;
+    background-color: aquamarine;
+    border: 4px solid burlywood;
+    border-radius: 7px;
+}
+
+.eleven {
+    color: red;
+    font-size: 13px;
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+.tweleve {
+
+    margin: 1px 270px;
+    font-size: 13px;
+}
+
+.phone {
+    margin-left: 270px;
+    height: 40px;
+    text-align: center;
+    width: 13%;
+    font-size: 15px;
+    background-color: aquamarine;
+    border: 4px solid burlywood;
+    border-radius: 7px;
+}
+
+.city {
+    margin-left: 100px;
+    height: 40px;
+    width: 13%;
+    font-size: 15px;
+    text-align: center;
+    background-color: aquamarine;
+    border: 4px solid burlywood;
+    border-radius: 7px;
+}
+
+.message {
+    margin-left: 270px;
+    width: 54%;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: aquamarine;
+    border: 4px solid burlywood;
+    border-radius: 7px;
+}
+
+.submit {
+    margin-left: 270px;
+    height: 30px;
+    width: 7%;
+    margin-top: 20px;
+    background-color: aquamarine;
+    border: 4px solid black;
+    color: black;
+}
+
+
+@media screen and (min-width:348px) and (max-width:500px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+    div.center i{
+        margin-left: 100px;
+        
+    }
+
+    .second {
+        margin-left: 5px;
+        width: 40%;
+    }
+    div.icons i{
+        font-size: 15px;
+    }
+    .icons  {
+        margin-left: 250px;
+        
+    }
+    img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .third {
+        font-size: small;
+        margin-left: 0px;
+        width: 70%;
+    }
+
+    .four {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .five {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .six {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .seven {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .eigth {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+
+    }
+
+    .nine {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .ten {
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .name {
+        margin-left: 50px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .email {
+        margin-left: 40px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .eleven {
+        margin-left: 50px;
+    }
+
+    .tweleve {
+        margin: 1px 50px;
+    }
+
+    .phone {
+        margin-left: 50px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .city {
+        margin-left: 40px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .message {
+        margin-left: 50px;
+        width: 60%;
+    }
+
+    .submit {
+        margin-left: 50px;
+        width: 20%;
+    }
+}
+ @media screen and (min-width:395px) and (max-width:426px){
+   
+    div.center i{
+        margin-left: 183px;
+        
+    }
+}
+
+@media screen and (min-width:427px) and (max-width:500px){
+    div.center i{
+        margin-left: 207px;
+        
+    }
+} 
+
+
+
+@media screen and (min-width:501px) and (max-width:1250px){
+    
+    body {
+        width: 100%;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .center {
+        text-align: center;
+    }
+    .second {
+        margin-left: 5px;
+        width: 40%;
+    }
+    div.icons i{
+        font-size: 20px;
+    }
+    .icons  {
+        margin-left: 360px;
+    }
+    img {
+        width: 100%;
+        margin-left: 0;
+    }
+    .third {
+        font-size: 15px;
+        margin-left: 0px;
+        width: 70%;
+    }
+
+    .four {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .five {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .six {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .seven {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .eigth {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+
+    }
+
+    .nine {
+        text-align: center;
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+    .ten {
+        margin: 1px 50px;
+        font-size: 18px;
+    }
+
+    .name {
+        margin-left: 50px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .email {
+        margin-left: 40px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .eleven {
+        margin-left: 50px;
+    }
+
+    .tweleve {
+        margin: 1px 50px;
+    }
+
+    .phone {
+        margin-left: 50px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .city {
+        margin-left: 40px;
+        height: 40px;
+        width: 30%;
+    }
+
+    .message {
+        margin-left: 50px;
+        width: 60%;
+    }
+
+    .submit {
+        margin-left: 50px;
+        width: 20%;
+    }
+}
+@media screen and (min-width:850px) and (max-width:1270px){
+    .icons  {
+        margin-left: 700px;
+    }
+}
